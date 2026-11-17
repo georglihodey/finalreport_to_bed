@@ -19,7 +19,6 @@ dir.create("./arch_a/raw", recursive = TRUE, showWarnings = FALSE)
 
 #### Предлагаемые шаблоны
 con_plink_start <- "~/plink/plink --cow --nonfounders --allow-no-sex "
-#con_plink_start <- "~/plink/plink --cow --nonfounders "
 con_plink_end   <- " --make-bed --out "
 
 # ==============================================================================
